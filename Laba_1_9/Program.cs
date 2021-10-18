@@ -56,7 +56,7 @@ namespace Laba_1_9
             z = d3 / c3;
             y = (c2 - b2 * z) / b2;
             x = (d1 - c1 * z - b1 * y) / a1;
-            Console.WriteLine("Ответ: x = {0}; y = {1}; z = {2}");
+            Console.WriteLine("Ответ: x = {0}; y = {1}; z = {2}", x, y, z);
 
         }
     }
